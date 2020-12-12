@@ -42,5 +42,5 @@ jobs:
        - name: Uploading Image.gz-dtb & Ak3 zip
          run: |
             curl -sL https://git.io/file-transfer | sh
-            ./transfer bit /home/runner/workdir/arch/arm64/boot/Image.gz-dtb
-            ./transfer bit /home/runner/workdir/ak3/*.zip
+            ./transfer wet /home/runner/workdir/arch/arm64/boot/Image.gz-dtb
+            ./transfer wet /home/runner/workdir/ak3/*.zip

@@ -3,7 +3,7 @@
 #set -e
 
 ## Copy this script inside the kernel directory
-KERNEL_DEFCONFIG=phoenix_defconfig
+KERNEL_DEFCONFIG=drona_defconfig
 ANYKERNEL3_DIR=$PWD/AnyKernel3/
 FINAL_KERNEL_ZIP=Drona_Kernel_Phoenix_V1.zip
 export PATH="$KERNELDIR/prebuilts/proton-clang/bin:${PATH}"

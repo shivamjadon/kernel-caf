@@ -26,7 +26,7 @@ jobs:
        - name: Initializing environment
          run: |
             sudo -E apt-get -qq update
-            sudo -E apt-get -qq install bc build-essential zip curl libstdc++6 git wget python gcc clang libssl-dev repo rsync flex bison ccache
+            sudo -E apt-get -qq install bc build-essential zip curl libstdc++6 git wget python gcc clang libssl-dev rsync flex bison ccache
        - name: Downloading script from remote repo
          run: |
             wget https://raw.githubusercontent.com/$USERNAME/kernel-caf/master/script.sh
